@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?    family=Fascinate&family=Unbounded:wght@500&display=swap"
+    rel="stylesheet">
+  <title>Monaco</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="script.js">
+  <link rel="icon" type="image/x-icon" href="monaco.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+</head>
+
+<body class="text-center container-fluid" id="home">
+  <div class="">
+
+
+    <header class="header">
+      <button class="btn  btn-danger" id="hamburger" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></button>
+    </header>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasRightLabel"><img class="top" src="bestdestination.png">
+          <!--change color of image later-->
+        </h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <ul class="navbar-nav justify-content-end  pe-3">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html" id="nav">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page2.html" id="nav">Restaurants & Hotels</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="page3.html" role="button" id="nav">
+            Destinations
+          </a>
+        </li>
+      </ul>
+      <div class="offcanvas-body">
+      </div>
+    </div>
+  </div>
+  <div class="body">
+    <div class="content">
+
+      <div>
+        <h1 class="title">MONACO</h1>
+        <h4 class="quote"><i>"I have found serenity at Monaco." -Stephan El Shaarawy (even though peace is for the
+            weak)</i></h4>
+      </div>
+      <div>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="carousel1.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="carousel2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="carousel3.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="facts">
+        <h3>Welcome to Monaco! Monaco is a city and country that is surrounded by France. Here, 1 in 3 people are
+          millionaires. It has the highest GDP per capita out of any country in the world. Monaco is smaller than
+          Central Park, at 0.81 square miles. Monaco has the world’s highest average life expectancy at 85.8 years. The
+          average age of residents is around 44 years old, and 14% of the population is over 75 years old.</h3>
+      </div>
+
+    </div>
+    
+
+    <div>
+
+      <footer class="footer">
+        <a class="weatherwidget-io" id="weather" href="https://forecast7.com/en/43d747d42/monaco/" data-label_1="MONACO"
+          data-label_2="7-DAY FOECAST" data-theme="original">MONACO 7-DAY FORECAST</a>
+        <script>
+          !function (d, s, id) {var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) {js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs);} }(document, 'script', 'weatherwidget-io-js');
+        </script>
+      </footer>
+
+
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous">           </script>
+
+</body>
+
+</html>
